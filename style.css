@@ -1,1 +1,139 @@
 @charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital@1&family=Lora:ital,wght@1,500&display=swap');
+
+
+:root{
+   --font-escrita: 'Dancing Script', cursive;
+   --font-padrao: 'Lato', sans-serif;
+   --font-titulo: 'Lora', serif;
+
+   --cor01: #751205;
+   --cor02: #C21C07;
+   --cor03: #000000;
+   --cor04: #FFFFFF;
+   --cor05: #EBE9EE;
+
+   font-size: 62,5%;
+}
+
+body{
+    background-color: var(--cor03);
+}
+
+/* Header da pagina */
+
+header{
+    padding: 0;
+    background-color: var(--cor01);
+}
+
+.box{
+    position: relative;
+    width: auto;
+}
+
+header img{
+    width: 10rem;
+}
+
+header img:hover{
+    cursor: pointer;
+}
+
+.title{
+    position: absolute;
+    top: 1.7rem;
+    right: 10rem;
+    font-size: 4rem;
+    font-family: var(--font-escrita);
+    color: var(--cor05);
+}
+
+.title:hover{
+  font-size: 5rem;
+  transition: 0.5s;
+}
+
+.title:hover::after{
+    content: " 🇮🇹";
+}
+
+nav{
+    position: absolute;
+    top: 3rem;
+    right: 50rem;
+}
+
+nav h1{
+    position: absolute;
+    top: 3rem;
+    right: 50rem;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 2.5rem;
+}
+
+nav a{
+    color: var(--cor05);
+    font-size: 2rem;
+    font-family: var(--font-titulo);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--cor03);
+    font-size: 2.5rem;
+    transition: 0.3s;
+    background-color: var(--cor02);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+/* Main da pagina */
+main{
+    height: 800px;
+    width: 70%;
+    margin: auto;
+    background-color: var(--cor04);
+}
+
+
+/* Footer da pagina */
+
+footer{
+    background-color: var(--cor01);
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer img{
+    width: 10rem;
+}
+
+footer img:hover{
+    cursor: pointer;
+}
+
+.copyright{
+    color: var(--cor05);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.dev{
+    background-color: var(--cor02);
+    color: var(--cor05);
+    font-size: 1.2rem;
+}
+
+.dev a{
+    color: var(--cor05);
+    text-decoration: none;
+}
+
+.dev a:hover{
+    color: var(--cor03);
+}
