@@ -91,10 +91,21 @@ main{
     height: auto;
     width: auto;
     margin: auto;
-    background-image: url(images/comida-italiana.jpg);
-    background-size: cover;
-    opacity: ;
+    position: relative;
 }
+
+ main::before{
+    content: "";
+    background-image: url(images/comida-italiana.jpg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.7;
+} 
 
 section{
     width: 70%;
@@ -139,6 +150,7 @@ article strong{
 article strong:hover{
     color: var(--cor02);
     cursor: pointer;
+    font-size: 2.5rem;
 }
 
 .sobre{
@@ -163,15 +175,15 @@ article strong:hover{
 
 .pratos img:hover{
     border: 0.3rem solid var(--cor02);
-    transform: scale(1.2);
-    display: block;
+    transform: scale(1.3);
+    cursor: pointer;
 }
 
 .pratos p{
     text-align: center;
     font-family: var(--font-titulo);
     color: var(--cor02);
-    display: none;
+    margin-top: 1rem;
 }
 
 .pratos p:hover{
