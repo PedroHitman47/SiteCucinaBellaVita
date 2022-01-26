@@ -186,9 +186,9 @@ article strong:hover{
     margin-top: 1rem;
 }
 
-.pratos p:hover{
+/* .pratos p:hover{
     
-}
+} */
 
 button{
     background-color: var(--cor01);
