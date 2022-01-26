@@ -18,7 +18,6 @@
 }
 
 
-
 /* Index.html  */
 
 /* Header da pagina */
@@ -292,7 +291,7 @@ section{
 
 .menu{
     width: 55%;
-    margin: 1rem auto;
+    margin: 3rem auto;
     border: 0.6em solid var(--cor03);
     padding: 1rem;
 }
@@ -319,4 +318,42 @@ section{
 
 .menu img{
     float: right;
+}
+
+
+/* localizacao.html */
+
+.local{
+    display: inline-block;
+    text-align: center;
+    border: 0.5rem solid var(--cor01);
+    margin: 1rem auto;
+}
+
+.restaurante{
+    font-family: var(--font-titulo);
+    font-size: 2rem;
+    color: var(--cor02);
+    text-align: start;
+    padding: 1rem 8rem 0 8rem;
+}
+
+.local img{
+ width: 80%;
+
+}
+
+.local p{
+    font-family: var(--font-titulo);
+}
+
+.endereco{
+    text-align: center;
+}
+
+.info-local{
+    width: 80%;
+    
+    margin: auto;
+    color: var(--cor02);
 }
