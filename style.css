@@ -201,17 +201,21 @@ button{
     width: 300px;
     border: 0.3rem solid black;
     border-radius: 1.5rem;
-    display: block;
     margin: 2rem auto;
     padding: 1rem;
 }
 
 button:hover{
     background-color: var(--cor02);
-    transform: scale(1.4);
     color: var(--cor04);
     border-color: var(--cor01);
+    transform: scale(1.4);
     cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: var(--cor04);
 }
 
 table{
@@ -356,4 +360,27 @@ section{
     
     margin: auto;
     color: var(--cor02);
+}
+
+
+/* reserva.html */
+
+.reserva{
+    display: block;
+    text-align: center;
+}
+
+.reserva img{
+    width: 100%; 
+}
+
+.msg{
+    font-family: var(--font-titulo);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.form{
+    font-family: var(--font-padrao);
+    font-size: 2rem;
 }
