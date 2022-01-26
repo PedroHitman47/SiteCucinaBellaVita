@@ -18,6 +18,9 @@
 }
 
 
+
+/* Index.html  */
+
 /* Header da pagina */
 
 header{
@@ -278,4 +281,42 @@ footer img:hover{
 .dev a:hover{
     color: var(--cor03);
     font-weight: bold;
+}
+
+
+/* cardapio.html */
+
+section{
+    padding: 2rem;
+}
+
+.menu{
+    width: 55%;
+    margin: 1rem auto;
+    border: 0.6em solid var(--cor03);
+    padding: 1rem;
+}
+
+.menu-title{
+    font-family: var(--font-escrita);
+    font-size: 3rem;
+    color: var(--cor01);
+    text-align: center;
+    padding: 1rem;
+}
+
+.menu li{
+    font-family: var(--font-escrita);
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.menu p{
+    font-family: var(--font-titulo);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.menu img{
+    float: right;
 }
