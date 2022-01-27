@@ -384,6 +384,8 @@ section{
     font-family: var(--font-titulo);
 }
 
+/* Formulário da página */
+
 form{
     margin: 1rem auto;
     font-family: var(--font-titulo);
@@ -468,4 +470,9 @@ select{
     border-color: var(--cor01);
     transform: scale(1.4);
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 1690) {
+    
 }
