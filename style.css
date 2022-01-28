@@ -484,63 +484,58 @@ select{
 
 /* media queries */
 
-@media (max-width: 385px) {
-    .subtitle{
-        color: blue;
+@media screen and (max-width: 420px) {
+    .flexbox-div ul{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around ;
     }
-    .imagem-texto{
-        width: 50%;
-    }
+
 }
 
-@media screen and (max-width: 1175px) {
+@media screen and (max-width: 1050px) {
+    .pratos{
+        display: flex;
+        flex-direction: column;
+    }
+    
 
+}
+
+@media screen and (max-width: 1300px) {
     .flexbox-div{
         flex-direction: column;
     }
 
-    header img{
-        width: 8rem;
+    .flexbox-div .home{
+        order: -2;
     }
 
-    .flexbox-ul{
-        flex-direction: column;
+    .flexbox-div .title{
+        order: -1;
     }
 
-    .local{
-        width: 89%;
+    nav li{
+        padding-right: 2rem;
         
     }
 
-    .local img{
-        width: 80%;
-    }
-
-    .restaurante{
-        font-size: 1.8rem;
-    }
-
-    .endereco{
-        font-size: 1.8rem;
-    }
-
-    .info-local{
-        font-size: 1.8rem;
+    .pratos img{
+        width: 11rem;
     }
 
     .mesa label{
         display: block;
     }
-
+    
 }
 
 
 @media screen and (max-width: 1440px) {
-
-    
+ 
     nav li{
         margin: 1rem 2rem 2rem 0rem;
-        /* margin-right: 2rem; */
+        
     }
 
     .flexbox-ul{
