@@ -482,6 +482,17 @@ select{
     cursor: pointer;
 }
 
+/* media queries */
+
+@media (max-width: 385px) {
+    .subtitle{
+        color: blue;
+    }
+    .imagem-texto{
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 1175px) {
 
     .flexbox-div{
@@ -522,6 +533,7 @@ select{
     }
 
 }
+
 
 @media screen and (max-width: 1440px) {
 
