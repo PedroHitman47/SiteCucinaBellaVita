@@ -73,7 +73,6 @@ nav{
     /* position: absolute;
     top: 3rem;
     right: 53rem; */
-    margin-right: 20rem;
 }
 
 
@@ -483,45 +482,77 @@ select{
     cursor: pointer;
 }
 
+@media screen and (max-width: 1175px) {
+
+    .flexbox-div{
+        flex-direction: column;
+    }
+
+    header img{
+        width: 8rem;
+    }
+
+    .flexbox-ul{
+        flex-direction: column;
+    }
+
+    .local{
+        width: 89%;
+        
+    }
+
+    .local img{
+        width: 80%;
+    }
+
+    .restaurante{
+        font-size: 1.8rem;
+    }
+
+    .endereco{
+        font-size: 1.8rem;
+    }
+
+    .info-local{
+        font-size: 1.8rem;
+    }
+
+    .mesa label{
+        display: block;
+    }
+
+}
+
 @media screen and (max-width: 1440px) {
+
+    
+    nav li{
+        margin: 1rem 2rem 2rem 0rem;
+        /* margin-right: 2rem; */
+    }
+
     .flexbox-ul{
         display: flex;
         justify-content: center;
     }
 
-    .title{
-        font-size: 2rem;
-    }
-
-    .title:hover{
-        font-size: 3rem;
-        transition: 0.5s;
-      }
-
-    nav li{
-        margin-right: 1rem;
-    }
-    
-    nav a{
-        color: var(--cor05);
-        font-size: 1.6rem;
-        
+    .menu{
+        width: 80%;
     }
 }
 
 
 @media screen and (max-width: 1680px) {
     .title{
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .title:hover{
-        font-size: 4rem;
-        transition: 0.5s;
-      }
+        font-size: 5rem;
+    }
 
-      nav{
-        margin-right: 14rem;
+    nav li{
+        margin-right: 1rem;
     }
 }
 
