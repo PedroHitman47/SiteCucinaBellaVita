@@ -28,12 +28,21 @@ header{
 }
 
 .box{
-    position: relative;
+    /* position: relative; */
     width: auto;
+}
+
+.flexbox-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header img{
     width: 10rem;
+    margin-left: -1rem;
 }
 
 header img:hover{
@@ -41,13 +50,14 @@ header img:hover{
 }
 
 .title{
-    position: absolute;
+    /* position: absolute;
     top: 1.7rem;
-    right: 10rem;
+    right: 10rem; */
     font-size: 4rem;
     font-family: var(--font-escrita);
     color: var(--cor05);
     text-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.972);
+    margin-right: 2rem;
 }
 
 .title:hover{
@@ -60,9 +70,10 @@ header img:hover{
 }
 
 nav{
-    position: absolute;
+    /* position: absolute;
     top: 3rem;
-    right: 53rem;
+    right: 53rem; */
+    margin-right: 20rem;
 }
 
 
@@ -473,6 +484,17 @@ select{
 }
 
 
-@media screen and (max-width: 1690) {
-    
+@media screen and (max-width: 1680px) {
+    .title{
+        font-size: 3rem;
+    }
+
+    .title:hover{
+        font-size: 4rem;
+        transition: 0.5s;
+      }
+
+      nav{
+        margin-right: 14rem;
+    }
 }
