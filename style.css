@@ -483,6 +483,34 @@ select{
     cursor: pointer;
 }
 
+@media screen and (max-width: 1440px) {
+    .title{
+        font-size: 2rem;
+    }
+
+    .title:hover{
+        font-size: 3rem;
+        transition: 0.5s;
+      }
+
+      nav{
+        margin-right: 14rem;
+    }
+
+    nav li{
+        display: inline-block;
+        margin-right: 1rem;
+    }
+    
+    nav a{
+        color: var(--cor05);
+        font-size: 1.6rem;
+        font-family: var(--font-titulo);
+        text-decoration: none;
+        text-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.411);
+    }
+}
+
 
 @media screen and (max-width: 1680px) {
     .title{
@@ -498,3 +526,4 @@ select{
         margin-right: 14rem;
     }
 }
+
