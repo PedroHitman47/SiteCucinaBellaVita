@@ -488,13 +488,21 @@ select{
     .flexbox-div ul{
         display: flex;
         flex-direction: column;
-        justify-content:space-around ;
         align-items: center;
+    }
+
+    .flexbox-div li{
+        margin-right: 0rem;
+        padding: 0rem;
+    }
+
+    .flexbox-div img{
+        margin-left: 0rem;
     }
 
     .flexbox-div .title{
         font-size: 2rem;
-        margin: 1rem;
+        margin: 0rem;
     }
 
     .flexbox-div .title:hover{
@@ -504,11 +512,58 @@ select{
     section{
         width: 100%;
     }
-
-    .subtitle{
-        font-size: 3rem;
+    
+    .flexbox-section{
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+    }
+    
+    .flexbox-section article{
+        padding: 0rem;
     }
 
+    .subtitle{
+        font-size: 2.5rem;
+    }
+
+    .flexbox-section img{
+        width: 90%;
+    }
+
+    .flexbox-section p{
+        font-size: 1.5rem;
+        padding: 0rem;
+        text-align: justify;
+    }
+
+    .flexbox-section strong{
+        font-size: 1.5rem;
+        
+    }
+
+    .flexbox-section strong:hover{
+        font-size: 2rem;
+    }
+
+    .flexbox-ul p{
+       text-align: center;
+    }
+
+    .flexbox-section button{
+        width: 60%;
+        height: 10%;
+    }
+
+    .flexbox-section table{
+        width: 50%;
+    }
+
+
+    .pratos img:hover{
+        transform: scale(1.2);
+    }
+    
 }
 
 @media screen and (max-width: 1050px) {
