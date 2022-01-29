@@ -484,6 +484,26 @@ select{
 
 /* media queries */
 
+@media screen and (max-width: 380px) {
+    /* home */
+    .flexbox-section .reserva button{
+        display: flex;
+        width: 75%;
+        height: 5%;
+    }
+
+    .flexbox-section table{
+        width: 40%;
+    }
+
+    /* carpadio */
+    .flexbox-section .menu img{
+        margin: 0.1rem;
+    }
+
+
+}
+
 @media screen and (max-width: 420px) {
     /* nav */
     .flexbox-div ul{
@@ -562,6 +582,10 @@ select{
         width: 50%;
     }
 
+    .flexbox-section table td{
+        vertical-align: middle;
+    }
+
 
     .pratos img:hover{
         transform: scale(1.2);
@@ -589,12 +613,12 @@ select{
     }
 
     .flexbox-section .endereco{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         text-align: center;
     }
 
     .flexbox-section .info-local{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin: 1rem auto;
     }
 
