@@ -530,7 +530,7 @@ select{
         font-size: 2.5rem;
     }
 
-    .flexbox-section img{
+    .flexbox-section .imagem-texto{
         width: 90%;
     }
 
