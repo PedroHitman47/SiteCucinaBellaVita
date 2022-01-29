@@ -489,6 +489,24 @@ select{
         display: flex;
         flex-direction: column;
         justify-content:space-around ;
+        align-items: center;
+    }
+
+    .flexbox-div .title{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+
+    .flexbox-div .title:hover{
+        font-size: 3rem;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    .subtitle{
+        font-size: 3rem;
     }
 
 }
@@ -497,6 +515,9 @@ select{
     .pratos{
         display: flex;
         flex-direction: column;
+    }
+    .restaurante{
+        font-size: 1.8rem;
     }
     
 
