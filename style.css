@@ -621,6 +621,10 @@ select{
         width: 90%;
     }
 
+    .flexbox-section .sobre{
+        max-width: 90%;
+    }
+
     .flexbox-section p{
         font-size: 1.5rem;
         padding: 0rem;
@@ -739,6 +743,11 @@ select{
 }
 
 @media screen and (max-width: 380px) {
+    /* nav */
+    .flexbox-div .title:hover{
+        font-size: 2.5rem;
+    }
+
     /* home */
     .flexbox-section article .subtitle{
         font-size: 2.5rem;
@@ -782,6 +791,36 @@ select{
     .flexbox-section .botao{
         width: 80%;
         height: 10%;
+    }
+}
+
+@media screen and (max-width: 370px){
+    /* cardapio */
+    .flexbox-section .menu img{
+        margin: 0.2rem;
+    }
+
+    .flexbox-section .menu li{
+        font-size: 1.6rem;
+    }
+
+    /* localização */
+    .flexbox-section .restaurante {
+        font-size: 1.5rem;
+    }
+
+    .flexbox-section .endereco {
+        font-size: 1rem;
+    }
+
+    /* footer */
+    .flexbox-footer{
+        display: flex;
+        flex-direction:column ;
+    }
+
+    .flexbox-footer .copyright{
+        font-size: 1.4rem;
     }
 }
 
