@@ -833,17 +833,45 @@ select{
         font-size: 2rem;
     }
 
+    /* cardapio */
+    .flexbox-section .menu .menu-title{
+        font-size: 2rem;
+    }
+
+    .flexbox-section .menu li {
+        font-size: 1.1rem;
+    }
+
+    .flexbox-section .obs {
+        font-size: 0.8rem;
+    }
+
     /* localização */
     .flexbox-section .local .restaurante{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .flexbox-section .local .endereco{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .flexbox-section .local .info-local{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+    }
+
+    /* reserva */
+    .flexbox-section .msg {
+        font-size: 1.8rem;
+    }
+
+    .flexbox-section label {
+        font-size: 1.3rem;
+    }
+
+    /* footer */
+
+    .flexbox-footer .copyright{
+        font-size: 1.3rem;
     }
     
 }
