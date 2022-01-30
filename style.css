@@ -147,7 +147,7 @@ article{
 article p{
     font-family: var(--font-padrao);
     font-size: 2rem;
-    padding: 1rem;
+    padding-bottom: 1rem;
     text-align: justify;
 }
 
@@ -346,7 +346,7 @@ section{
 
 .restaurante{
     font-family: var(--font-titulo);
-    font-size: 2rem;
+    font-size: 2.7rem;
     color: var(--cor02);
     text-align: start;
     padding: 1rem 8rem 0 8rem;
@@ -484,24 +484,91 @@ select{
 
 /* media queries */
 
-@media screen and (max-width: 380px) {
-    /* home */
-    .flexbox-section .reserva button{
+@media screen and (max-width: 1440px) {
+
+    nav li{
+        margin: 1rem 2rem 2rem 0rem;
+        
+    }
+
+    .flexbox-ul{
         display: flex;
-        width: 75%;
-        height: 5%;
+        justify-content: center;
     }
 
-    .flexbox-section table{
-        width: 40%;
+    .menu{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .flexbox-div{
+        flex-direction: column;
     }
 
-    /* carpadio */
-    .flexbox-section .menu img{
-        margin: 0.1rem;
+    .flexbox-div .home{
+        order: -2;
     }
 
+    .flexbox-div .title{
+        order: -1;
+    }
 
+    nav li{
+        padding-right: 2rem;
+        
+    }
+
+    .pratos img{
+        width: 11rem;
+    }
+
+    .mesa label{
+        display: block;
+    }
+
+    .flexbox-section form select{
+        margin: 0rem auto 1rem auto;
+    }
+    
+}
+
+@media screen and (max-width: 1050px) {
+    .pratos{
+        display: flex;
+        flex-direction: column;
+    }
+    .restaurante{
+        font-size: 1.8rem;
+    }
+
+    .endereco{
+        font-size: 1.5rem;
+    }
+
+    .info-local{
+        font-size: 1.5rem; 
+    }
+
+    .flexbox-section .mapa{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        margin: 1rem;
+    }
+
+    .flexbox-section .mapa iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+
+    .flexbox-section .msg{
+        font-size: 2.4rem;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -570,7 +637,7 @@ select{
     }
 
     .flexbox-ul p{
-       text-align: center;
+        text-align: center;
     }
 
     .flexbox-section button{
@@ -597,17 +664,13 @@ select{
         margin-top: 0;
     }
 
-    .flexbox-section img{
-        width: 30%;
-    }
-
     /* localização */
     .flexbox-section .local img{
         width: 90%;
     }
 
     .flexbox-section .restaurante{
-        font-size: 2rem;
+        font-size: 1.7rem;
         padding: 1rem 0 0 0;
         text-align: center;
     }
@@ -647,7 +710,7 @@ select{
     .flexbox-section .reserva img{
         width: 90%;
     }
-      
+
     .flexbox-section .subtitle{
         font-size: 3rem;
     }
@@ -669,94 +732,91 @@ select{
     .flexbox-section legend{
         font-size: 1.5rem;
     }
+
+    .flexbox-section form .botao:hover{
+        transform: scale(1.3);
+    }
 }
 
-@media screen and (max-width: 1050px) {
-    .pratos{
-        display: flex;
-        flex-direction: column;
+@media screen and (max-width: 380px) {
+    /* home */
+    .flexbox-section article .subtitle{
+        font-size: 2.5rem;
     }
-    .restaurante{
+
+    .flexbox-section .pratos p{
+        text-align: center;
+    }
+
+    .flexbox-section .reserva button{
+        display: flex;
+        width: 75%;
+        height: 5%;
+    }
+
+    .flexbox-section table{
+        width: 40%;
+    }
+
+    /* carpadio */
+    .flexbox-section .menu img{
+        margin: 0.2rem;
+    }
+
+    .flexbox-section .menu li{
         font-size: 1.8rem;
     }
 
-    .flexbox-section .mapa{
-        overflow:hidden;
-        padding-bottom:56.25%;
-        position:relative;
-        height:0;
-        margin: 1rem;
+    .flexbox-section p{
+        font-size: 1.3rem;
+        padding: 0rem;
+        text-align: justify;
     }
 
-    .flexbox-section .mapa iframe{
-        left:0;
-        top:0;
-        height:100%;
-        width:100%;
-        position:absolute;
+    /* localização */
+    .flexbox-section .restaurante {
+        font-size: 1.6rem;
     }
 
-
+    /* reserva */
+    .flexbox-section .botao{
+        width: 80%;
+        height: 10%;
+    }
 }
 
-@media screen and (max-width: 1300px) {
-    .flexbox-div{
-        flex-direction: column;
+@media screen and (max-width: 330px){
+    /* home */
+    .flexbox-section .reserva a{
+        font-size: 1.3rem;
+    }
+    .flexbox-section table th{
+        font-size: 2rem;
     }
 
-    .flexbox-div .home{
-        order: -2;
+    /* localização */
+    .flexbox-section .local .restaurante{
+        font-size: 1rem;
     }
 
-    .flexbox-div .title{
-        order: -1;
+    .flexbox-section .local .endereco{
+        font-size: 0.9rem;
     }
 
-    nav li{
-        padding-right: 2rem;
-        
-    }
-
-    .pratos img{
-        width: 11rem;
-    }
-
-    .mesa label{
-        display: block;
+    .flexbox-section .local .info-local{
+        font-size: 0.9rem;
     }
     
 }
 
 
-@media screen and (max-width: 1440px) {
- 
-    nav li{
-        margin: 1rem 2rem 2rem 0rem;
-        
-    }
-
-    .flexbox-ul{
-        display: flex;
-        justify-content: center;
-    }
-
-    .menu{
-        width: 80%;
-    }
-}
 
 
-@media screen and (max-width: 1680px) {
-    .title{
-        font-size: 4rem;
-    }
 
-    .title:hover{
-        font-size: 5rem;
-    }
 
-    nav li{
-        margin-right: 1rem;
-    }
-}
+
+
+
+
+
 
