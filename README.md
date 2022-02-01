@@ -1,6 +1,6 @@
  # Cucina Bella Vita :it:
 
-![](/home/pedrohc47/Área de Trabalho/italiani.png)
+![Print do site](/home/pedrohc47/Área de Trabalho/italiani.png)
 
 ## Site de uma cantina fictícia de comida tipica italiana:tomato:
 
