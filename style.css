@@ -69,12 +69,6 @@ header img:hover{
     content: " 🇮🇹";
 }
 
-nav{
-    /* position: absolute;
-    top: 3rem;
-    right: 53rem; */
-}
-
 
 nav li{
     display: inline-block;
