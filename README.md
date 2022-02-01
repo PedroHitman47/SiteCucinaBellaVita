@@ -1,10 +1,10 @@
  # Cucina Bella Vita :it:
 
-![](/home/pedrohc47/Área de Trabalho/italiani.png)
+![print_site](https://user-images.githubusercontent.com/58918633/152025337-81efe46d-45ff-42c6-afff-9981cea47893.png)
 
-## Site de uma cantina fictícia de comida tipica italiana:tomato:
+## Site de uma cantina fictícia de comida tipica italiana :tomato:
 
-###  Status do projeto: Finalizado:white_check_mark:
+###  Status do projeto: Finalizado :white_check_mark:
 
  ### Desenvolvido por completo em apenas 7 dias :calendar:
 
