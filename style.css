@@ -181,7 +181,7 @@ article strong:hover{
 
 .pratos img:hover{
     border: 0.3rem solid var(--cor02);
-    transform: scale(1.3);
+    transform: scale(1.2);
     cursor: pointer;
 }
 
@@ -517,6 +517,11 @@ select{
         width: 11rem;
     }
 
+    article p{
+        font-family: var(--font-padrao);
+        font-size: 1.8rem;
+    }
+
     .mesa label{
         display: block;
     }
@@ -528,20 +533,28 @@ select{
 }
 
 @media screen and (max-width: 1050px) {
+    nav li{
+        padding-right: 1rem;
+        
+    }
+
     .pratos{
         display: flex;
         flex-direction: column;
     }
     .restaurante{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
+    }
+    .restaurante{
+        padding: 1rem 3rem 0 3rem;
     }
 
     .endereco{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .info-local{
-        font-size: 1.5rem; 
+        font-size: 1.2rem; 
     }
 
     .flexbox-section .mapa{
@@ -562,6 +575,10 @@ select{
 
     .flexbox-section .msg{
         font-size: 2.4rem;
+    }
+
+    label, legend{
+        font-size: 1.8rem;
     }
 }
 
@@ -723,13 +740,10 @@ select{
         width: 90%;
     }
 
-    .flexbox-section label{
-        font-size: 1.5rem;
+    .flexbox-section label, .flexbox-section legend{
+        font-size: 1.3rem;
     }
 
-    .flexbox-section legend{
-        font-size: 1.5rem;
-    }
 
     .flexbox-section form .botao:hover{
         transform: scale(1.3);
@@ -782,6 +796,7 @@ select{
     }
 
     /* reserva */
+
     .flexbox-section .botao{
         width: 80%;
         height: 10%;
@@ -789,6 +804,11 @@ select{
 }
 
 @media screen and (max-width: 370px){
+    /* home */
+    th{
+        font-size: 2.5rem;
+    }
+
     /* cardapio */
     .flexbox-section .menu img{
         margin: 0.2rem;
@@ -824,7 +844,11 @@ select{
         font-size: 1.3rem;
     }
     .flexbox-section table th{
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .flexbox-section table td{
+        font-size: 1.3rem;
     }
 
     /* cardapio */
@@ -858,8 +882,8 @@ select{
         font-size: 1.8rem;
     }
 
-    .flexbox-section label {
-        font-size: 1.3rem;
+    .flexbox-section label, .flexbox-section legend{
+        font-size: 1.2rem;
     }
 
     /* footer */
